@@ -10,7 +10,7 @@
 <p align="center">
     <a href="#motivation">Motivation</a> &bull;
     <a href="#installation">Installation</a> &bull;
-    <a href="#further_readings">Further Readings</a>
+    <a href="#readings">Readings</a>
 </p>
 -------
 
@@ -27,7 +27,7 @@ This project uses [CocoaPods](https://cocoapods.org). All you need to setup it p
 pod install
 ```
 
-## Further Readings
+## Readings
 
 If you are interested in more material, I'd recommend two amazing sources:
 - [Concrete Solutions](http://www.concretesolutions.com.br) [Blog](http://www.concretesolutions.com.br/blog/): Company blog with lots of great content. (in Portuguese*)
