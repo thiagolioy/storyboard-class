@@ -1,10 +1,10 @@
 # Storyboard-class
 
 [![Twitter: @tplioy](https://img.shields.io/badge/contact-@tplioy-blue.svg?style=flat)](https://twitter.com/tplioy)
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/thiagolioy/marvelapp/blob/master/LICENSE)
-[![GitHub forks](https://img.shields.io/github/forks/thiagolioy/marvelapp.svg)](https://github.com/thiagolioy/marvelapp/network)
-[![GitHub stars](https://img.shields.io/github/stars/thiagolioy/marvelapp.svg)](https://github.com/thiagolioy/marvelapp/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/thiagolioy/marvelapp.svg)](https://github.com/thiagolioy/marvelapp/issues)
+[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/thiagolioy/storyboard-class/blob/master/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/thiagolioy/storyboard-class.svg)](https://github.com/thiagolioy/storyboard-class/network)
+[![GitHub stars](https://img.shields.io/github/stars/thiagolioy/storyboard-class.svg)](https://github.com/thiagolioy/storyboard-class/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/thiagolioy/storyboard-class.svg)](https://github.com/thiagolioy/storyboard-class/issues)
 
 -------
 <p align="center">
