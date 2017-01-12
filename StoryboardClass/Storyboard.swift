@@ -64,6 +64,18 @@ struct Storyboard {
       return vc
     }
   }
+  enum Second: String, StoryboardSceneType {
+    static let storyboardName = "Second"
+
+    case anotherViewControllerScene = "AnotherViewController"
+    static func instantiateAnotherViewController() -> AnotherViewController {
+      guard let vc = Storyboard.Second.anotherViewControllerScene.viewController() as? AnotherViewController
+      else {
+        fatalError("ViewController 'AnotherViewController' is not of the expected class AnotherViewController.")
+      }
+      return vc
+    }
+  }
 }
 
 struct StoryboardSegue {

@@ -113,7 +113,24 @@
                     <view key="view" contentMode="scaleToFill" id="2gr-BF-Vpu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u84-hJ-7Nm">
+                                <rect key="frame" x="20" y="548" width="335" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="SMD-Ed-fxQ"/>
+                                </constraints>
+                                <state key="normal" title="Lets go somewhere else!"/>
+                                <connections>
+                                    <action selector="didClickOnMe:" destination="Buc-vh-Cil" eventType="touchUpInside" id="vZ1-cw-qoy"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.86181855200000002" green="0.2114866376" blue="0.26701331140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vlr-Jf-u1Q" firstAttribute="top" secondItem="u84-hJ-7Nm" secondAttribute="bottom" constant="20" id="DxD-vh-6JC"/>
+                            <constraint firstAttribute="trailing" secondItem="u84-hJ-7Nm" secondAttribute="trailing" constant="20" id="EOs-Jg-iqH"/>
+                            <constraint firstItem="u84-hJ-7Nm" firstAttribute="leading" secondItem="2gr-BF-Vpu" secondAttribute="leading" constant="20" id="GnI-G9-8n9"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVL-j4-Lul" userLabel="First Responder" sceneMemberID="firstResponder"/>

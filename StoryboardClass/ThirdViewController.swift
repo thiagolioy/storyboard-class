@@ -10,4 +10,12 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    
+    @IBAction func didClickOnMe(_ sender: UIButton) {
+        let sb = UIStoryboard(name: "Second", bundle: nil)
+        guard let controller = sb.instantiateViewController(withIdentifier: "AnotherViewController") as? AnotherViewController else {
+            return
+        }
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
 }
