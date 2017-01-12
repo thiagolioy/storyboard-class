@@ -1,0 +1,19 @@
+PODS:
+  - Reusable (3.0.1):
+    - Reusable/Storyboard (= 3.0.1)
+    - Reusable/View (= 3.0.1)
+  - Reusable/Storyboard (3.0.1)
+  - Reusable/View (3.0.1)
+  - SwiftGen (4.0.1)
+
+DEPENDENCIES:
+  - Reusable
+  - SwiftGen
+
+SPEC CHECKSUMS:
+  Reusable: 5362d10271ca8316b104698a21e90498f47e8339
+  SwiftGen: 04bbc1fb69add82a7a471380dfbdd00b45912d17
+
+PODFILE CHECKSUM: 9b20fb334b37dc18c2ac3564491eb047cdb03a44
+
+COCOAPODS: 1.1.1
