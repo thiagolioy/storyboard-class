@@ -9,7 +9,7 @@
 -------
 <p align="center">
     <a href="#motivation">Motivation</a> &bull;
-    <a href="#installation">Installation</a>
+    <a href="#installation">Installation</a> &bull;
     <a href="#further_readings">Further Readings</a>
 </p>
 -------
