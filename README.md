@@ -17,7 +17,7 @@
 ## Motivation
 
 This repository supports a Storyboard class held at Concrete Solutions for new employees and interns. This by no means is production code or ready. The purpose
-is simply to show a few tricks, dos and don'ts, kind of thing. Also this are just starting files, during the class much will change, the changes probably wont be committed!
+is simply to show a few tricks, dos and don'ts, kind of thing. Also this project contains only starting files, during the class much will change, the changes probably wont be committed!
 
 
 ## Installation
