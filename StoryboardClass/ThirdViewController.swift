@@ -10,6 +10,12 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    var name: String?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print(name)
+    }
     
     @IBAction func didClickOnMe(_ sender: UIButton) {
         let sb = UIStoryboard(name: "Second", bundle: nil)

@@ -18,6 +18,7 @@
 		99700E941E278A34007037EF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99700E931E278A34007037EF /* ThirdViewController.swift */; };
 		99700E961E278B70007037EF /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99700E951E278B70007037EF /* Second.storyboard */; };
 		99700E981E278B95007037EF /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99700E971E278B95007037EF /* AnotherViewController.swift */; };
+		99A890251E294A2A004E0048 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A890241E294A2A004E0048 /* Square.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		99700E931E278A34007037EF /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		99700E951E278B70007037EF /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		99700E971E278B95007037EF /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		99A890241E294A2A004E0048 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				99700E931E278A34007037EF /* ThirdViewController.swift */,
 				99700E951E278B70007037EF /* Second.storyboard */,
 				99700E971E278B95007037EF /* AnotherViewController.swift */,
+				99A890241E294A2A004E0048 /* Square.swift */,
 			);
 			path = StoryboardClass;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				99700E921E27897B007037EF /* Storyboard.swift in Sources */,
 				990AD2441E2787AA004E896F /* SecondViewController.swift in Sources */,
 				99700E981E278B95007037EF /* AnotherViewController.swift in Sources */,
+				99A890251E294A2A004E0048 /* Square.swift in Sources */,
 				99700E941E278A34007037EF /* ThirdViewController.swift in Sources */,
 				990AD2401E2787AA004E896F /* AppDelegate.swift in Sources */,
 				990AD2421E2787AA004E896F /* FirstViewController.swift in Sources */,

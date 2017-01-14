@@ -20,6 +20,16 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func didClickWhatever(_ sender: UIButton) {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        guard let controller = sb.instantiateViewController(withIdentifier: "ThirdViewController") as? ThirdViewController else {
+            return
+        }
+        
+        controller.name = "Whatever fancy"
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    
 }
 

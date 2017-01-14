@@ -41,7 +41,7 @@
                                 </constraints>
                                 <state key="normal" title="Try me!"/>
                                 <connections>
-                                    <segue destination="Buc-vh-Cil" kind="show" id="33d-NI-UAh"/>
+                                    <action selector="didClickWhatever:" destination="9pv-A4-QxB" eventType="touchUpInside" id="C0l-gy-3ms"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -115,7 +115,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u84-hJ-7Nm">
-                                <rect key="frame" x="20" y="548" width="335" height="50"/>
+                                <rect key="frame" x="20" y="597" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="SMD-Ed-fxQ"/>
                                 </constraints>
@@ -132,6 +132,7 @@
                             <constraint firstItem="u84-hJ-7Nm" firstAttribute="leading" secondItem="2gr-BF-Vpu" secondAttribute="leading" constant="20" id="GnI-G9-8n9"/>
                         </constraints>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVL-j4-Lul" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

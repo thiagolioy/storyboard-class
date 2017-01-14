@@ -20,7 +20,26 @@
                     <view key="view" contentMode="scaleToFill" id="OHa-ht-qbU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqs-3q-nwd" customClass="Square" customModule="StoryboardClass" customModuleProvider="target">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="JHa-Q2-eUm"/>
+                                    <constraint firstAttribute="height" constant="200" id="bBl-8F-lP1"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="100"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="0.91346532110000001" green="0.78910988569999996" blue="0.31789222360000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qqs-3q-nwd" firstAttribute="centerX" secondItem="OHa-ht-qbU" secondAttribute="centerX" id="CT1-tu-KWI"/>
+                            <constraint firstItem="qqs-3q-nwd" firstAttribute="centerY" secondItem="OHa-ht-qbU" secondAttribute="centerY" id="lgh-ma-JRD"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5cL-YU-5y5" userLabel="First Responder" sceneMemberID="firstResponder"/>
